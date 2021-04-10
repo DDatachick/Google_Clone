@@ -18,9 +18,9 @@ a:hover{
     text-decoration: underline;
 }
 .google_search{
-    width:50%;
-    margin:10.7em auto;
-    text-align: center;
+    width:39%;
+    margin:11.2em auto;
+    text-align: center; 
 }
 input{
     width:80%;
@@ -35,22 +35,30 @@ input{
     padding:1em;
     border: none;
 }
-.other_lang{
+.google_offers{
     display: flex;
     justify-content: space-evenly;
+    font: 0.8em sans-serif;
     width: 67%;
     padding:1em;
-    margin-top:1em;
+    margin-top:0.5em;
 }
+.google_offers a{
+    color: rgb(14, 14, 116);
+}
+
 footer{
     background-color: rgb(245, 245, 245);
 }
 .footer_1{
     padding: 1em;
+    font: 0.8em sans-serif;
+    color: gray;
 }
 .footer_2{
     padding: 1em;
     display:flex;
+    font: 0.8em sans-serif;
     justify-content: space-between;
     border-top: 1px solid rgb(206, 204, 204);
 }
